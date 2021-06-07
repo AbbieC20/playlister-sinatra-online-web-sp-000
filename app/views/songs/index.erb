@@ -8,7 +8,8 @@
     <h2> Your Songs </h2>
 
     <% @songs.each do |song| %>
-      <a href="/songs/<%= song.slug %>"><%= song.name %></a> <br><br>
+      <a href="/songs/<%= song.slug %>"><%= song.name %></a>
+      <br><br>
     <% end %>
 
   </body>
